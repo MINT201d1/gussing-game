@@ -13,8 +13,6 @@
 
 - This game about choosing a picture that belongs to catogary, the webpage will include several diffrent picturs from diffrent catogries, it will ask you to select the pic based on the catogary that shows on the screen, this operation will repeat itself couple of times, each time you choose the correct pic you will get a point.
 
-
-a
 ### MVP 
 - The goal of this website is to have at least:
 1. Two pics from two different catagories. 
