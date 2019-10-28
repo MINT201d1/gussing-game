@@ -16,7 +16,7 @@
         </h1>
         <nav>
             <ul>
-                <li><a href="#instructions">Instructions</a></li>
+                <li><a id="visible" href="#instructions">Instructions</a></li>
                 <li><a href="html/score.html">High Score</a></li>
                 <li><a href="html/aboutUs.html">About Us</a></li>
             </ul>
@@ -24,18 +24,19 @@
     </header>
 
     <main>
-        <div class="back">
-            <div class="front">
-                <p id="instructions"> <br> Welcome to `game title` <a href="#" class="close">x</a> <br>
-                    In this game you will see four pictures one of them is a correct answer depending on the catogary
+        <div id="back" >
+            <div id="front">
+                <p id="instructions"> <br> Welcome to `game title` <a id="hide" href="#" class="close">x</a> <br>
+                    In this game you will see four pictures, one of them is a correct answer depending on the catogary
                     that
-                    show on the screen. Once you choose a picture; the pictures and the wanted catogary will change
-                    randomly.
+                    show on the screen. Once you choose a picture the pictures and the wanted catogary will change
+                    randomly. <br>
+                    Good Luck
                 </p>
             </div>
         </div>
         <form id="info">
-            <input type="text" name="name" id="newUser" placeholder="gamer name" value required>
+            <input type="text" name="name" id="newUser" placeholder="Player Name" value required>
             <input type="submit" id="button" value="Begin">
         </form>
     </main>
