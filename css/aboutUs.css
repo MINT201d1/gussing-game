@@ -1,0 +1,77 @@
+h1{
+    
+    color: rgb(10, 5, 1);
+    text-align: center;
+    font-size: 300%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0% ;
+    
+}
+body {
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/91/95/4157e14a4d9ac81.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid rgb(26, 16, 16);
+    max-width: 100%;
+    
+}
+h2{
+    background-color: rgb(212, 188, 188);
+    color: rgb(10, 6, 1);
+    text-align: center;
+
+}
+.card {
+    border: solid grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(13, 109, 13);
+    color: rgb(12, 2, 2);
+  }
+  
+  .title {
+    color: rgb(7, 5, 5);
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: rgb(8, 6, 6);
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  #aboutId {
+max-width: 60%;
+display: inline;
+background-position: center;
+
+
+  }
+  img{
+      max-width: 40%;
+      border: dashed black;
+  }
+  nav{
+      text-align: center;
+      background-color: lawngreen;
+      color: black;
+      font-family: fantasy;
+  }  
