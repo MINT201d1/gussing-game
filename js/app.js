@@ -1,3 +1,4 @@
+// modified by one of the games that JB sent
 'use strict';
 //gets element of the begin button
 var userInfo = document.getElementById('info');
@@ -10,4 +11,10 @@ function newUserName(event) {
   localStorage.Data = JSON.stringify(name);
   userInfo.removeEventListener('submit', newUserName);
   window.location.href = 'html/game.html';
+}
+
+function show() {
+  var insta = document.getElementById('instructions')
+  insta.setAttribute('style','display: block');
+
 }
