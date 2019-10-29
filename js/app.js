@@ -10,7 +10,7 @@ function newUserName(event) {
   var name = event.target.newUser.value;
   localStorage.Data = JSON.stringify(name);
   userInfo.removeEventListener('submit', newUserName);
-  window.location.href = 'html/game.html';
+  window.location.href = 'game.html';
 }
 
 //Showing the instructions of the game

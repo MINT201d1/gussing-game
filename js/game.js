@@ -5,16 +5,12 @@ function Category(name) {
   Category.all.push(this);
 
 }
-Category.all=[];
+Category.all = [];
 
 function getRandomCategory() {
   var index = Math.floor(Math.random() * Category.all.length);
   return Category.all[index];
 }
-
-
-var score = 0;
-
 
 
 function Bird(src) {
@@ -66,7 +62,10 @@ function getRandomReptile() {
 }
 
 function renderCategory() {
-
+  var cate = document.getElementById('main-category');
+  var h2 = document.createElement('p');
+  cate.appendChild(h2);
+  h2.textContent = getRandomCategory().name;
 }
 
 
@@ -108,9 +107,9 @@ function shuffle(array) {
 }
 
 
-new Category ('bird');
-new Category ('Insect');
-new Category ('Reptile');
+new Category('Chose the bird');
+new Category('Chose the insect');
+new Category('Chose the reptile');
 new Bird('birds/pengune.gif');
 new Bird('birds/whitduk.gif');
 new Bird('birds/yallowduk.gif');
@@ -125,26 +124,37 @@ new Reptile('reptil/cute-turtle.jpg');
 new Reptile('reptil/lizard.jpg');
 
 renderAnimals();
+renderCategory();
 
-// function clickHandler(event) {
 
-//   var clickedId = event.target.id;
-//   var BirdClicked;
+function clickHandler(event) {
 
-//   if (clickedId === 'up') {
+  var clickedId = event.target.id;
 
-//   } else if (clickedId === 'down') {
-//   } else if (clickedId === 'left') {
-//   } else if (clickedId === 'right') {
+  if (clickedId === 'up') {
+    renderAnimals();
+    renderCategory();
+  } else if (clickedId === 'down') {
+    renderAnimals();
+    renderCategory();
+  } else if (clickedId === 'left') {
+    renderAnimals();
+    renderCategory();
+  } else if (clickedId === 'right') {
+    renderAnimals();
+    renderCategory();
+  }
+  else {
+    console.log(' what was clicked on???', clickedId);
+  }
 
-//   }
-//   else {
-//     console.log(' what was clicked on???', clickedId);
-//   }
+}
+Bird.container = document.getElementById('container');
+Insect.container = document.getElementById('container');
+Reptile.container = document.getElementById('container');
+Other.container = document.getElementById('container');
 
-// }
-
-// Bird.container.addEventListener('click', clickHandler);
-// Insect.container.addEventListener('click', clickHandler);
-// Reptile.container.addEventListener('click', clickHandler);
-// Other.container.addEventListener('click', clickHandler);
+Bird.container.addEventListener('click', clickHandler);
+Insect.container.addEventListener('click', clickHandler);
+Reptile.container.addEventListener('click', clickHandler);
+Other.container.addEventListener('click', clickHandler);
