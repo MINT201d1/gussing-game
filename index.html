@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Acme|Amatic+SC|Dancing+Script|Lobster|Patrick+Hand|Yellowtail&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            Game Title
+        </h1>
+        <nav>
+            <ul>
+                <li><a id="visible" href="#instructions">Instructions</a></li>
+                <li><a href="html/score.html">High Score</a></li>
+                <li><a href="html/aboutUs.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="back" >
+            <div id="front">
+                <p id="instructions"> <br> Welcome to `game title` <a id="hide" href="#" class="close">x</a> <br>
+                    In this game you will see four pictures, one of them is a correct answer depending on the catogary
+                    that
+                    show on the screen. Once you choose a picture the pictures and the wanted catogary will change
+                    randomly. <br>
+                    Good Luck
+                </p>
+            </div>
+        </div>
+        <form id="info">
+            <input type="text" name="name" id="newUser" placeholder="Player Name" value required>
+            <input type="submit" id="button" value="Begin">
+        </form>
+    </main>
+
+    <footer>
+        © 2019 MINT, &nbsp; All rights reserved
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
