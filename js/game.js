@@ -1,5 +1,5 @@
 'use strict';
-// constructor function for category 
+// constructor function for category
 function Category(name) {
   this.name = name;
   Category.all.push(this);
@@ -63,6 +63,7 @@ function getRandomReptile() {
 
 function renderCategory() {
   var cate = document.getElementById('main-category');
+  cate.innerHTML = '' ;
   var h2 = document.createElement('p');
   cate.appendChild(h2);
   h2.textContent = getRandomCategory().name;
@@ -145,7 +146,7 @@ function clickHandler(event) {
     renderCategory();
   }
   else {
-    console.log(' what was clicked on???', clickedId);
+    alert('nooooooooo');
   }
 
 }
