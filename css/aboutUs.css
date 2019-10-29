@@ -1,4 +1,89 @@
+/*This is ibrahim's changes on the css */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-image: url(https://www10.fiyattoplamak.co/pic/63965-1/Foto%C4%9Fraf-arka-plan%C4%B1nda-jungle-safari-temal%C4%B1-hayvanlar-bebek-do%C4%9Fum-g%C3%BCn%C3%BC-partisi-afi%C5%9F-foto%C4%9Fraf-arka-plan-do%C4%9Fal-sahne-zemin-w-303.jpg);
+  background-size: 100% 105% ;
+
+}
 h1{
+  /* border-style: solid; */
+  text-align: center;
+  font-size: 80px;
+  padding-top: 50px;
+  color: crimson;
+}
+nav{
+  /* border-style: solid; */
+  text-align: center;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+a{
+  text-decoration: none;
+  color: rgb(136, 127, 6);
+
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  background-color: rgba(125, 231, 125, 0.801);
+  color: rgb(12, 2, 2);
+}
+.descr{
+  overflow: auto;
+}
+img{
+  width: 150px;
+  height: 200px;
+  border: dashed rgb(151, 9, 9);
+}
+.muna{
+  float: left;
+  border-style: solid;
+  margin-top: 50px;
+  margin-left: 350px;
+}
+.naseem{
+  border-style: solid;
+  float: right;
+  margin-top: 50px;
+  margin-right: 350px;
+}
+.tasnim{
+  float: left;
+  border-style: solid;
+  margin-top: 560px;
+  margin-left: -306px;
+
+}
+.ibrahim{
+  border-style: solid;
+  float: right;
+  margin-top: 560px;
+  margin-right: -306px;
+}
+footer{
+  border-style: solid;
+  position: absolute;
+  top: 1250px;
+  left: 1100px;
+}
+
+
+
+
+
+
+/* the end of ibrahim's changes */ 
+
+
+/* h1{
     
     color: rgb(10, 5, 1);
     text-align: center;
@@ -62,8 +147,8 @@ h2{
   #aboutId {
     width: 350px;
     height: 50px;
-display: inline;
-background-position: center;
+  display: inline;
+  background-position: center;
   }
   img{
       max-width: 40%;
@@ -74,4 +159,4 @@ background-position: center;
       background-color: lawngreen;
       color: black;
       font-family: fantasy;
-  }  
+  }   */

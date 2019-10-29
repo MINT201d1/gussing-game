@@ -16,8 +16,7 @@ function newUserName(event) {
 //Showing the instructions of the game
 function show() {
   var inst = document.getElementById('back')
-  inst.setAttribute('style','display: block');
-  // inst.setAttribute('style','opacity: 1');
+  inst.setAttribute('style',' visibility: visible; opacity:1; transition: opacity 1s');
   // inst.setAttribute('style', 'transition: opacity 500ms')
 
 }
@@ -27,7 +26,7 @@ visible.addEventListener('click', show)
 //Hiding the instructions 
 function hide() {
   var inst = document.getElementById('back')
-  inst.setAttribute('style','display: none');
+  inst.setAttribute('style','visibility: hidden;  opacity:0; transition: opacity 1s');
 }
 var hidden = document.getElementById('hide')
 hidden.addEventListener('click', hide)

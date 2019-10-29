@@ -95,7 +95,10 @@ footer{
     left: 0px;
     background-image: url(https://i.ytimg.com/vi/NR-C5-Hgk6Q/maxresdefault.jpg);
     background-size: 100% ;
-    display: none;
+    /* display: none; */
+    /* opacity: 0;
+    visibility: hidden; */
+    
 }
 .close{
     font-family: 'Courier New', Courier, monospace;
