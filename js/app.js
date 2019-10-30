@@ -17,8 +17,6 @@ function newUserName(event) {
 function show() {
   var inst = document.getElementById('back')
   inst.setAttribute('style',' visibility: visible; opacity:1; transition: opacity 1s');
-  // inst.setAttribute('style', 'transition: opacity 500ms')
-
 }
 var visible = document.getElementById('visible')
 visible.addEventListener('click', show)
@@ -26,7 +24,7 @@ visible.addEventListener('click', show)
 //Hiding the instructions 
 function hide() {
   var inst = document.getElementById('back')
-  inst.setAttribute('style','visibility: hidden;  opacity:0; transition: opacity 1s');
+  inst.setAttribute('style','opacity:0; transition: opacity 1s');
 }
 var hidden = document.getElementById('hide')
 hidden.addEventListener('click', hide)
