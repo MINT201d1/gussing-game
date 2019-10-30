@@ -8,10 +8,12 @@ userInfo.addEventListener('submit', newUserName);
 function newUserName(event) {
   event.preventDefault();
   var name = event.target.newUser.value;
-  localStorage.Data = JSON.stringify(name);
+  console.log('name',name);
+  localStorage.setItem('userName', name);
   userInfo.removeEventListener('submit', newUserName);
   window.location.href = 'game.html';
 }
+
 
 //Showing the instructions of the game
 function show() {
