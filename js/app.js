@@ -26,7 +26,7 @@ visible.addEventListener('click', show)
 //Hiding the instructions 
 function hide() {
   var inst = document.getElementById('back')
-  inst.setAttribute('style','opacity:0; transition: opacity 1s');
+  inst.setAttribute('style','opacity:0; transition: opacity 1s; z-index:0');
 }
 var hidden = document.getElementById('hide')
 hidden.addEventListener('click', hide)

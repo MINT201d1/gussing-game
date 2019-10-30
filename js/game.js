@@ -8,7 +8,7 @@ var ctrR = 0;
 var ctrI = 0;
 var roudCtr;
 var score;
-var limit = 10;
+var limit = 25;
 
 zero();
 
@@ -142,18 +142,52 @@ function shuffle(array) {
 }
 
 
+new Bird('bird', 'birds/bied0.jpg');
+new Bird('bird', 'birds/bird6.jpg');
+new Bird('bird', 'birds/bird1.jpg');
+new Bird('bird', 'birds/bird5.jpg');
+new Bird('bird', 'birds/bird3.png');
+new Bird('bird', 'birds/bird4.jpg');
+new Bird('bird', 'birds/bird8.jpg');
 new Bird('bird', 'birds/pengune.gif');
 new Bird('bird', 'birds/whitduk.gif');
 new Bird('bird', 'birds/yallowduk.gif');
+
 new Other('other-img/img1.jpg');
 new Other('other-img/img2.jpg');
 new Other('other-img/img3.jpg');
-new Insect('insect', 'insect/grasshopper.jpg');
-new Insect('insect', 'insect/butterfly.jpg');
+new Other('other-img/other6.jpg');
+new Other('other-img/other1.png');
+new Other('other-img/other2.jpg');
+new Other('other-img/other3.jpg');
+new Other('other-img/other4.jpg');
+new Other('other-img/other5.jpg');
+new Other('other-img/images.jpg');
+
+new Insect('insect', 'insect/ins1.jpg');
+new Insect('insect', 'insect/ins2.jpg');
+new Insect('insect', 'insect/ins3.jpg');
+new Insect('insect', 'insect/ins4.jpg');
+new Insect('insect', 'insect/ins5.jpg');
+new Insect('insect', 'insect/ins6.jpg');
+new Insect('insect', 'insect/ins7.jpg');
+new Insect('insect', 'insect/ins8.jpg');
 new Insect('insect', 'insect/mariquitaa.gif');
-new Reptile('reptile', 'reptile/cobra.jpg');
+
+
 new Reptile('reptile', 'reptile/cute-turtle.jpg');
-new Reptile('reptile', 'reptile/lizard.jpg');
+new Reptile('reptile', 'reptile/11.jpg');
+new Reptile('reptile', 'reptile/22.jpg');
+new Reptile('reptile', 'reptile/33.jpg');
+new Reptile('reptile', 'reptile/44.jpg');
+new Reptile('reptile', 'reptile/55.jpg');
+new Reptile('reptile', 'reptile/66.jpg');
+new Reptile('reptile', 'reptile/77.jpg');
+
+
+
+
+
 
 renderAnimals();
 renderCategory();
