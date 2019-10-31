@@ -14,7 +14,7 @@ h1{
     font-family: 'Dancing Script', cursive;
 }
 #container{
-    border-style: solid;
+    /* border-style: solid; */
     position: relative;
     width: 1360px;
     height: 530px;
@@ -24,25 +24,25 @@ h1{
     position: absolute;
     top: 20px;
     left: 570px;
-    border-style: solid;
+    /* border-style: solid; */
     border-radius: 50%;
 }
 #left{
-    border-style: solid;
+    /* border-style: solid; */
     border-radius: 50%;
     position: absolute;
     top: 150px;
     left: 255px;
 }
 #right{
-    border-style: solid;
+    /* border-style: solid; */
     border-radius: 50%;
     position: absolute;
     top: 150px;
     left: 896px;
 }
 #down{
-    border-style: solid;
+    /* border-style: solid; */
     border-radius: 50%;
     position: absolute;
     top: 305px;
@@ -50,7 +50,7 @@ h1{
  
 }
 #main-category{
-    border-style: solid;
+    /* border-style: solid; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -60,7 +60,8 @@ h1{
     color: rgb(109, 0, 0);
 }
 #welcome{
-    border-style: solid;
+    /* border-style: solid; */
+    font-family: 'Dancing Script', cursive;
     position: absolute;
     top: 0px;
     bottom: -17px;
@@ -83,4 +84,22 @@ p{
     transform: translate(-50%, -50%);
     margin-top: 90px ;
     font-size: 70px;
+}
+#home {
+    text-align: left;
+    width: 1000px;
+    height: 200px;
+    position: absolute;
+    margin-top: -140px ;
+    margin-left: 1000px;
+    /* border-style: solid; */
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    z-index: 100;
+
+}
+.scoresen {
+color: darkblue;
+font-family: 'Dancing Script', cursive;
+
 }
