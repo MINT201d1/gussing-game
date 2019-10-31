@@ -114,12 +114,13 @@ img:hover{
   margin-right: -306px;
 }
 footer{
-  border-style: solid;
+  /* border-style: solid; */
+  font-family: 'Righteous', cursive;
+  color: aquamarine;
   position: absolute;
-  top: 1250px;
+  top: 1275px;
   left: 1100px;
 }
-
 
 
 
