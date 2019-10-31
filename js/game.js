@@ -257,7 +257,7 @@ function clickHandler(event) {
     }
   }
   else {
-    alert('nooooooooo');
+    alert('please, click on the correct image!');
   }
 
 
@@ -273,7 +273,7 @@ function clickHandler(event) {
       ctrI++;
     }
     else if (animal.name === null) {
-      alert('nooooo')
+      alert('no')
     }
     console.log('animal', animal) /// Danger the clicking process holds the scr of the constuctor
     console.log('ctrB', ctrB);
@@ -307,7 +307,8 @@ function updateScore() {
   var para = document.getElementById('score');
 
   para.innerHTML = '';
-  addElement('h2', para, 'your score is ' + score);
+ var h2 = addElement('h2', para, 'Your score is ' + score);
+ h2.setAttribute('class','scoresen')
 }
 function zero() {
   roudCtr = 0;
@@ -320,7 +321,7 @@ function hi(){
   var hello = document.createElement('p');
   welcome.appendChild(hello);
   console.log('name',localStorage.getItem('userName'))
-  hello.textContent = 'Hello ' + localStorage.getItem('userName') + ' click anywhere to play'
+  hello.textContent = 'Hello ' + localStorage.getItem('userName') + ' Click anywhere to play'
 }
 hi();
 
